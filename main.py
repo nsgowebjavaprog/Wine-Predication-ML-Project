@@ -1,6 +1,7 @@
-from . import mlProject
+from src.mlProject.logger import logger
 
-mlProject.info("Logging is set up.")
+logger.info("This is a test log message.")
+
 # from mlProject import logger
 # from mlProject.pipeline.stage_01_data_ingestion import DataIngestionTrainingPipeline
 # from mlProject.pipeline.stage_02_data_validation import DataValidationTrainingPipeline
