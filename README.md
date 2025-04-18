@@ -30,14 +30,22 @@ How to run?
 
 STEPS:
 conda create -n mlproj python=3.8 -y 
+
 conda activate mlproj
+
 pip install -r requirements.txt
+
 python app.py
-Now open up your local host 0.0.0.0:8080
-AWS-CICD-Deployment-with-Github-Actions
+
+## Now open up your local host 0.0.0.0:8080
+
+## AWS-CICD-Deployment-with-Github-Actions
+
 1. Login to AWS console.
+
 2. Create IAM user for deployment
-#with specific access
+
+# with specific access
 
 1. EC2 access : It is virtual machine
 
